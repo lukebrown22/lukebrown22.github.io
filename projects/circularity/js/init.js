@@ -103,7 +103,7 @@ var init = function (window) {
         view.addChild(fps);
         app.addUpdateable(fps);
         
-        game.circle = circle;
+        game.circles = circle;
         game.circles = circles;
         game.drawCircle = drawCircle;
         game.update = update;
